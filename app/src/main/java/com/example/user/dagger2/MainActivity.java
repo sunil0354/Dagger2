@@ -21,10 +21,6 @@ import retrofit2.Retrofit;
 public class MainActivity extends AppCompatActivity {
     @Inject
     Retrofit retrofit;
-
-    @Inject
-    int value;
-
     private String TAG="tag";
 
     @Override
